@@ -7,8 +7,8 @@
 DrawingPad = function(options) { 
 	"use strict";
 	var defaults = {
-		width : 500,
-		height : 500,
+		width : 400,
+		height : 400,
 		defaultColor : "#00000",
 		defaultStroke : 4
 	}, 
@@ -16,8 +16,7 @@ DrawingPad = function(options) {
 		"share",
 		"draw",
 		"line",
-		"trash",
-		"save"
+		"trash"
 	],
 	settings = $.extend(defaults, options), 
 	DP={};
